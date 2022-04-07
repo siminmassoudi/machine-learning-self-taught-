@@ -1,0 +1,23 @@
+i=0
+j=0
+arr=[1,2,3,4,5,5,6,5]
+
+def matching_name(x)
+    for i in range(len(x)-1):
+        for j in range(len(x)):
+            if x[i]==x[j]:
+                return x[j]
+
+matching_name(x)
+        
+
+#data['country'].duplicated(keep='first')
+
+# def checkIfDuplicates_3(column):
+    
+#     for i in column:
+#         if column.count(i) > 1:
+#             return True
+#     return False
+
+# checkIfDuplicates_3('country')
